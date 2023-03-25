@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:padding="30dp"
+    tools:context=".login.Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/aladin"
+                android:text="Login"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="60sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/logincartoon" />
+
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/loginuser"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Phone#"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:background="#A4E2EA"
+                android:layout_marginBottom="4dp"
+                app:startIconTint="@color/black"
+                android:paddingLeft="7dp"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:fontFamily="@font/abril_fatface"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/loginpassword"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Password"
+                android:paddingLeft="7dp"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:background="#A4E2EA"
+                android:layout_marginBottom="4dp"
+                app:startIconTint="@color/black"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:fontFamily="@font/abril_fatface"
+                android:inputType="textPassword"
+                android:textColor="@color/black"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <CheckBox
+                    android:id="@+id/rememberme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="@color/black"
+                    android:text="Remember Me"
+                    android:textColor="@color/black" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="#00000000"
+                    android:id="@+id/forgotpasslogin"
+                    android:fontFamily="cursive"
+                    android:text="FORGET PASSWORD"
+                    android:textColor="@color/black" />
+
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <Button
+                    android:id="@+id/loginbtnn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:text="Login"
+                    android:fontFamily="@font/aladin"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"/>
+
+                <ProgressBar
+                    android:id="@+id/prograssbarlogin"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+
+
+            </FrameLayout>
+
+
+
+            <Button
+                android:id="@+id/createacc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:text="Create Account!"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".admin.aboutUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="About Us"
+            android:fontFamily="@font/abril_fatface"
+            android:textSize="60dp"/>
+
+        <VideoView
+            android:id="@+id/videoview"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="80dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:text="The about us page is commonly used by all types of businesses to give customers more insight into who is involved with a given business and exactly what it does. The history of a business is often provided, and the histories of the people in charge are usually expressed through short articles, usually accompanied by photographs.
+The primary purpose of an about us page is to inform the reader about the company and its operations. This is a straightforward goal that nearly all businesses have to fulfill in some fashion or another. However, there are other reasons why about us pages are common fixtures on business websites. The text on these pages is a marketing tool for a business, enticing potential customers with both the history and the aspirations of a business, as well as adding a human element. Additionally, about us pages are incorporated into search-engine marketing efforts as a way to find potential customers through Web searches.
+The primary purpose of an about us page is to inform the reader about the company and its operations. This is a straightforward goal that nearly all businesses have to fulfill in some fashion or another. However, there are other reasons why about us pages are common fixtures on business websites. The text on these pages is a marketing tool for a business, enticing potential customers with both the history and the aspirations of a business, as well as adding a human element. Additionally, about us pages are incorporated into search-engine marketing efforts as a way to find potential customers through Web searches."
+            android:textColor="#FFEB3B"
+            android:textSize="20dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

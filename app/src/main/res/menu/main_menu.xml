@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="All Categories"
+            android:icon="@drawable/manuicon"/>
+        <item
+            android:id="@+id/nav_all_booking"
+            android:title="Bookings"
+            android:icon="@drawable/usernameicon"/>
+
+    </group>
+
+    <item android:title="PROFILE">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="PROFILE"
+                    android:icon="@drawable/usernameicon"/>
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="LOGIN"
+                    android:icon="@drawable/login"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="LOGOUT"
+                    android:icon="@drawable/login_logo"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="CATEGORIES">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Electrician"
+                    android:title="Electrician"
+                    android:icon="@drawable/election"/>
+                <item
+                    android:id="@+id/nav_Plumber"
+                    android:title="Plumber"
+                    android:icon="@drawable/plumber"/>
+                <item
+                    android:id="@+id/nav_education"
+                    android:title="Education"
+                    android:icon="@drawable/teacher"/>
+                <item
+                    android:id="@+id/nav_HomeServices"
+                    android:title="Home Services"
+                    android:icon="@drawable/homeapplince"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="ABOUT">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_about"
+                    android:title="About Us"
+                    android:icon="@drawable/usericon"/>
+                <item
+                    android:id="@+id/nav_contect"
+                    android:title="Service Center"
+                    android:icon="@drawable/contect"/>
+            </group>
+
+        </menu>
+    </item>
+
+
+</menu>
